@@ -1,8 +1,10 @@
 #include <stdio.h>
 
-void factorize(int n) {
+void factorize(int n)
+{
     int i;
-    for (i = 2; i <= n / 2; i++) {
+    for (i = 2; i <= n / 2; i++)
+    {
         if (n % i == 0) {
             printf("%d=%d*%d\n", n, i, n / i);
             return;
